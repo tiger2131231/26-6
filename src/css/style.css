@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.header
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header_logo img{
+    width: 5rem;
+}
+.header_social i{
+    font-size: 2rem;
+    padding: 1rem;
+color: pink;
+background-color: red;
+border-radius: 50%;
+}
+.content_infor{
+    color: black;
+    font-size: 15px;
+}
+.content_infor p{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.content_infor h1{
+    margin-top: none;
+    display: block;
+}
+.content_infor img{
+    max-width: 100%;
+    height: auto;
+}
+.content_subinfor {
+font-size: 2rem;
+display: flex;
+align-items: center;
+}
+.content_subinfor li
+{
+    list-style: none;
+    padding: 2rem;
+}
+.content_subinfor strong{
+    color: orangered;
+    font-size: 30px;
+}
+.content_subinfor p{
+    color: black;
+}
+.content_text{
+    color: black;
+}
+.content_text strong{
+    display: inline-block;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-bottom: 3px solid #F26464;
+    padding-bottom: 7px;
+    margin-bottom: 23px;
+}
+.content_text h1{
+    color: #373737;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+.footer{
+        padding: 60px 10px;
+        background-color: black;
+        padding: 120px 0;
+        text-align: center!important;
+}
+.info span{
+    color: rgba(255,255,255,0.5);
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    display: block;
+    padding-bottom: 20px;
+}
+.info h4{
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: block;
+    padding-bottom: 10px; 
+}
+.info p{
+    color: aliceblue;
+    text-transform: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.info a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #F26464;
+    padding: 17px 30px;
+    border: 2px solid #F26464;
+    border-radius: 60px;
+    background-color: #F26464;
+    color: aliceblue;
+    margin-top: 1rem;
+}
+.info h5{
+    color: rgba(255,255,255,0.5);
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    display: block;
+    padding-bottom: 20px;
+    margin-top: 10rem;
+}
